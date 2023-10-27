@@ -43,7 +43,7 @@ size: Actual values added to the array.
 
 It returns the number of **actual** elements added to the SuperArray. Rember this value it is **NOT** The capacity. 
 
-### public boolean add(String value)**
+### public boolean add(String value)
 
 If there is space in the array the element should be added and and true is returned.
 If there is no space available to add a new element, you must call the resize() method before adding. 
