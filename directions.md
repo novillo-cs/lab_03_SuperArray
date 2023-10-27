@@ -55,7 +55,7 @@ Use comma-space separated values, with square brackets around everything. An emp
   
 It returns the value at the specified index. If the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. 
 
-### public String set(int **index, String newValue)
+### public String set(int index, String newValue)
   
 It changes the element at index i to newValue, and return the value you replaced. If the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. Do not modify the list. 
 
