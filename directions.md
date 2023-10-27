@@ -31,7 +31,9 @@ public SuperArray(int initialCapacity){
 
 
 **IMPORTANT:** size and initialCapacity(array length) are not the same.
+
 initialCapacity: It is array.length. The number you specify when you create the array.
+
 size: Actual values added to the array.
 
 
@@ -39,7 +41,7 @@ size: Actual values added to the array.
 
 ### public int size()
 
-It returns the number of **actual** elements added to the SuperArray. Rember this value it is ***NOT** The capacity. 
+It returns the number of **actual** elements added to the SuperArray. Rember this value it is **NOT** The capacity. 
 
 ### public boolean add(String value)**
 
