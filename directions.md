@@ -86,3 +86,7 @@ It returns the largest index where the value in the SuperArray matches the targe
 ### public void add(int index,String value)
 
 It adds the String to the target index. Values at that index and to the right of it must be shifted to the right to make room. Print an error when the index is out of range index is negative or index is larger than size().
+
+![image](https://github.com/novillo-cs/lab_03_SuperArray/assets/123229891/aa83583b-f16a-4555-8ee5-ec58ebbb8274)
+
+
