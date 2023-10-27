@@ -29,11 +29,11 @@ public SuperArray(int initialCapacity){
 }
 ```
 
-```
+
 **IMPORTANT:** size and initialCapacity(array length) are not the same.
 initialCapacity: It is array.length. The number you specify when you create the array.
 size: Actual values added to the array.
-```
+
 
 ## Methods
 
