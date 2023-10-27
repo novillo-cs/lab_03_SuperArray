@@ -45,7 +45,7 @@ It returns the number of **actual** elements added to the SuperArray. Rember thi
 
 ### public boolean add(String value)
 
-If there is space in the array the element should be added and and true is returned.
+If there is space in the array, the element should be added and true is returned.
 If there is no space available to add a new element, you must call the resize() method before adding. 
 
 ### public String toString()
@@ -59,11 +59,11 @@ It returns the value at the specified index. If the index is not valid (index is
 
 ### public String set(int index, String newValue)
   
-It changes the element at index i to newValue, and return the value you replaced. If the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. Do not modify the list. 
+It changes the element at index to newValue, and return the value you replaced. If the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. Do not modify the list. 
 
 ### public String remove(int index)
 
-It removes the element at the specified index. Shift all elements to the left to fill in the gap. f the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. If no error with the index, return the value that you removed when the index was valid. 
+It removes the element at the specified index. Shift all elements to the left to fill in the gap. If the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. If no error with the index, return the value that you removed when the index was valid. 
  
 ### public boolean remove(String target)
 
@@ -73,13 +73,13 @@ It removes the leftmost element that has the same value as the target string. Sh
 
 Notice, it is a private method.
 
-It will increase the capacity by making a new Array that has a new size of 2*length+1, then copy the old values, and set the data field to this new array.
+It will increase the capacity by making a new Array that has a new capacity of 2*length+1, then copy the old values, and set the data field to this new array.
 
-Test it and then modify the add method. The add methods must call this before you add to a list that is at capacity.
+Test it and then modify the add methods. The add methods must call this before you add to a list that is at capacity.
 
 ### indexOf(String target)
 
-It return the smallest index where the value in the SuperArray matches the target string. Return -1 when no value matches. Assume the target String is not null. 
+It returns the smallest index where the value in the SuperArray matches the target string. Return -1 when no value matches. Assume the target String is not null. 
 
 ### public int lastIndexOf(String target)
 
