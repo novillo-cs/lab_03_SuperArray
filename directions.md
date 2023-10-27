@@ -41,7 +41,7 @@ size: Actual values added to the array.
 
 ### public int size()
 
-It returns the number of **actual** elements added to the SuperArray. Rember this value it is **NOT** The capacity. 
+It returns the number of **actual** elements added to the SuperArray. Rember this value it is **NOT** the capacity. 
 
 ### public boolean add(String value)
 
