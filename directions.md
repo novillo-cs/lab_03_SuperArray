@@ -59,7 +59,7 @@ It returns the value at the specified index. If the index is not valid (index is
 
 ### public String set(int index, String newValue)
   
-It changes the element at index to newValue, and return the value you replaced. If the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. Do not modify the list. 
+It changes the element at index to newValue, and return the value you replaced. If the index is not valid (index is less than 0, or index is size() or greater) print an error, return null and do not modify the list. 
 
 ### public String remove(int index)
 
@@ -77,7 +77,7 @@ It will increase the capacity by making a new Array that has a new capacity of 2
 
 Test it and then modify the add methods. The add methods must call this before you add to a list that is at capacity.
 
-### indexOf(String target)
+### public int indexOf(String target)
 
 It returns the smallest index where the value in the SuperArray matches the target string. Return -1 when no value matches. Assume the target String is not null. 
 
