@@ -15,13 +15,15 @@ size => Number of actual elements in the array
 
 You must implement 2 constructors:
 
-- Default constructor(no arguments) which creates an empty SuperArray. Empty means no elements. You only initilize the array with a initial capacity (length) of 10. This means 10 is the maximum capacity.
+- Default constructor(no arguments) which creates an empty SuperArray. Empty means no elements. You only initilize the array with a initial capacity (length) of 10. This means 10 is the maximum capacity. 
 
 ```
 public SuperArray(){  
   // YOUR CODE HERE
 }
 ```
+
+- public SuperArray(int initialCapacity) makes an empty SuperArray, the array should start with a length of initialCapacity. Throw an IllegalArgumentException when the initialCapacity is negative. 
 
 ```
 public SuperArray(int initialCapacity){  
@@ -46,7 +48,7 @@ It returns the number of **actual** elements added to the SuperArray. Rember thi
 ### public boolean add(String value)
 
 If there is space in the array, the element should be added and true is returned.
-If there is no space available to add a new element, you must call the resize() method before adding. 
+If there is no space available to add a new element, you must call the resize() method before adding.
 
 ### public String toString()
   
@@ -55,15 +57,15 @@ Use comma-space separated values, with square brackets around everything. An emp
 
 ### public String get(int index)
   
-It returns the value at the specified index. If the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. 
+It returns the value at the specified index. If the index is not valid (index is less than 0, or index is size() or greater) throw an exception: index out of bounds.
 
 ### public String set(int index, String newValue)
   
-It changes the element at index to newValue, and return the value you replaced. If the index is not valid (index is less than 0, or index is size() or greater) print an error, return null and do not modify the list. 
+It changes the element at index to newValue, and return the value you replaced. If the index is not valid (index is less than 0, or index is size() or greater) throw an exception: index out of bounds, return null and do not modify the list. 
 
 ### public String remove(int index)
 
-It removes the element at the specified index. Shift all elements to the left to fill in the gap. If the index is not valid (index is less than 0, or index is size() or greater) print an error and return null. If no error with the index, return the value that you removed when the index was valid. 
+It removes the element at the specified index. Shift all elements to the left to fill in the gap. If the index is not valid (index is less than 0, or index is size() or greater) throw an exception: index out of bounds, and return null. If no error with the index, return the value that you removed. 
  
 ### public boolean remove(String target)
 
@@ -87,7 +89,7 @@ It returns the largest index where the value in the SuperArray matches the targe
 
 ### public void add(int index,String value)
 
-It adds the String to the target index. Values at that index and to the right of it must be shifted to the right to make room. Print an error when the index is out of range index is negative or index is larger than size().
+It adds the String to the target index. Values at that index and to the right of it must be shifted to the right to make room. Throw an IndexOutOfBoundsException when the index is negative or larger than size().
 
 ![image](https://github.com/novillo-cs/lab_03_SuperArray/assets/123229891/aa83583b-f16a-4555-8ee5-ec58ebbb8274)
 
