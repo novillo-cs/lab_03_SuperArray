@@ -1,4 +1,4 @@
-# Lab 03: SuperArray
+# Lab 04: SuperArray
 
 **Name:**
 
