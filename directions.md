@@ -93,6 +93,27 @@ It adds the String to the target index. Values at that index and to the right of
 
 ![image](https://github.com/novillo-cs/lab_03_SuperArray/assets/123229891/aa83583b-f16a-4555-8ee5-ec58ebbb8274)
 
+## Exceptions
+
+### SuperArrray(int initialCapacity)
+
+Throws an IllegalArgumentException when the initialCapacity is negative.
+
+### add(int index,String value)
+
+Throws an IndexOutOfBoundsException when the index is negative or greater than size().
+
+### String remove(int index)
+
+Throws an IndexOutOfBoundsException when the index is negative or greater than or equal to size().
+
+### String get(int index)
+
+Throws an IndexOutOfBoundsException when the index is negative or the index is at size() or greater.
+
+### String set(int index, String value)
+
+Throws an IndexOutOfBoundsException when the index is negative or the index is at size() or greater.
 
 # Driver
 
